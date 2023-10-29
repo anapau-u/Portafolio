@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio">
+  <title>Ana Paula Villa - Portafolio</title>
+  <link rel="shortcut icon" href="./img/logo.ico">
+  <link rel="stylesheet" href="./aos/aos.css">
+  <link rel="stylesheet" href="./CSS/index.css" />
+  <link rel="stylesheet" href="./CSS/responsivo.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div>
+      <img src="./img/logo.svg" alt="Logo" class="logo">
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#sobremi">Sobre mi</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="deplegable-nav">
+    <div>
+      <img src="./img/logo.svg" alt="Logo" class="logo">
+    </div>
+    <div class="deplegable-menu">
+      <div class="deplegable-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="#sobremi" onclick="toggleMenu()">Sobre mi</a></li>
+          <li><a href="#experiencia" onclick="toggleMenu()">Experiencia</a></li>
+          <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="perfil">
+    <div class="section-pic-container">
+      <img src="./img/profile-pic.webp" alt="Foto de perfil" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hola, soy</p>
+      <h1 class="title">Ana Paula Villa</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('assets/CV.pdf')">
+          Descargar CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contacto'">
+          Información de Contacto
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/ana-villa-ch/" aria-label="Link al perfil de LinkedIn"><i
+            class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/anapau-u" aria-label="Link to Github profile"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </section>
+  <section id="sobremi">
+    <p class="section__text__p1">Conoce más</p>
+    <h1 class="title">Sobre mi</h1>
+    <div class="section-container">
+      <div class="section-pic-container">
+        <img src="./img/about-pic.webp" alt="Foto sobre mi" class="sobremi-pic" />
+      </div>
+      <div class="sobremi-details-container">
+        <div class="sobremi-containers">
+          <div class="details-container">
+            <i class="bi bi-briefcase-fill"></i>
+            <h3>Experiencia</h3>
+            <p><strong>1 año</strong> <br />Frontend Development<br />Diseño de Software</p>
+          </div>
+          <div class="details-container">
+            <i class="bi bi-people-fill"></i>
+            <h3>Educación</h3>
+            <p><strong>USB</strong><br />Lic. Tecnologías de la Información en los Negocios</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Soy una desarrolladora frontend y diseñadora de software.
+            Actualmente estoy estudiando en la universidad y estoy emocionada por mostrar mis habilidades
+            y creatividad a través de mi trabajo. Por mi gusto por la música, a menudo me encontrarás en Spotify,
+            descubriendo nuevas canciones y creando listas de reproducción para crear el ambiente perfecto.
+            Además de mi experiencia técnica, poseo cualidades valiosas que me convierten en una profesional integral.
+            Soy asertiva y siempre me esfuerzo por ser un buen miembro de equipo. Asumir roles de liderazgo
+            me resulta natural y soy responsable y amable en mis interacciones con los demás.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experiencia">
+    <p class="section__text__p1">Esta es mi</p>
+    <h1 class="title">Experiencia</h1>
+    <div class="experiencia-details-container">
+      <div class="sobremi-containers">
+        <div class="details-container">
+          <h2 class="experiencia-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="bi bi-toggle-on"></i>
+
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>PHP</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>Figma</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experiencia-sub-title">Diseño de Software</h2>
+          <div class="article-container">
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>SQL Server</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <i class="bi bi-toggle-on"></i>
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="proyectos">
+    <p class="section__text__p1">Algunos de mis</p>
+    <h1 class="title">Proyectos</h1>
+    <div class="experiencia-details-container">
+      <div class="sobremi-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img loading="lazy" src="./img/f1blog.webp" alt="proyecto 1" class="proyecto-img" />
+          </div>
+          <h2 class="experiencia-sub-title proyecto-title">Formula 1 Blog</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 proyecto-btn"
+              onclick="location.href='https://github.com/anapau-u/Formula1Website'">
+              Github
+            </button>
+            <button class="btn btn-color-2 proyecto-btn"
+              onclick="location.href='https://anapau-u.github.io/Formula1Website/'">
+              En vivo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img loading="lazy" src="./img/freelance.webp" alt="proyecto 2" class="proyecto-img" />
+          </div>
+          <h2 class="experiencia-sub-title proyecto-title">Freelance</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 proyecto-btn"
+              onclick="location.href='https://psicologaivette.com/'">
+              En vivo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacto">
+    <p class="section__text__p1">Ponte en</p>
+    <h1 class="title">Contacto</h1>
+    <div class="contacto-info-upper-container">
+      <div class="contacto-info-container">
+        <a href="mailto:anpavilla07@gmail.com" aria-label="Link al perfil de LinkedIn"><i
+            class="bi bi-linkedin"></i></a>
+        <p><a href="mailto:anpavilla07@gmail.com" aria-label="Link al perfil de LinkedIn">anpavilla07@gmail.com</a></p>
+      </div>
+      <div class="contacto-info-container">
+        <a href="https://www.linkedin.com/in/ana-villa-ch/" aria-label="Link al perfil de LinkedIn"><i
+            class="bi bi-linkedin"></i></a>
+        <p><a href="https://www.linkedin.com/in/ana-villa-ch/" aria-label="Link al perfil de LinkedIn">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Ana Paula Villa.</p>
+  </footer>
+  <script src="./JS/script.js"></script>
+  <script src="./JS/bootstrap.min.js"></script>
+  <script src="./JS/jquery-3.7.0.min.js"></script>
+</body>
+</html>
