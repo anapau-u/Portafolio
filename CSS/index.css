@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #555555;
 }
 
 /* TRANSICIÓN */
@@ -46,14 +47,14 @@ nav {
 }
 
 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: #ffffff;
 }
 
 a:hover {
   color: #9D5A67;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #b5b5b5;
 }
 
 .logo {
@@ -67,16 +68,16 @@ a:hover {
 
 /* MENU DESPLEGABLE */
 
-#deplegable-nav {
+#desplegable-nav {
   display: none;
 }
 
-.deplegable-menu {
+.desplegable-menu {
   position: relative;
   display: inline-block;
 }
 
-.deplegable-icon {
+.desplegable-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -85,10 +86,10 @@ a:hover {
   cursor: pointer;
 }
 
-.deplegable-icon span {
+.desplegable-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: #000000;
   transition: all 0.3 ease-in-out;
 }
 
@@ -96,7 +97,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: #ffffff;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -108,7 +109,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: #000000;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -127,27 +128,27 @@ a:hover {
 
 
 
-.deplegable-icon.open span:first-child {
+.desplegable-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
 
-.deplegable-icon.open span:nth-child(2) {
+.desplegable-icon.open span:nth-child(2) {
   opacity: 0;
 }
 
-.deplegable-icon.open span:last-child {
+.desplegable-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.deplegable-icon span:first-child {
+.desplegable-icon span:first-child {
   transform: none;
 }
 
-.deplegable-icon span:first-child {
+.desplegable-icon span:first-child {
   opacity: 1;
 }
 
-.deplegable-icon span:first-child {
+.desplegable-icon span:first-child {
   transform: none;
 }
 
@@ -271,7 +272,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: #ffffff 0.1rem solid;
 }
 
 .btn-container {
@@ -307,10 +308,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #ffffff;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: #353535 0.1rem solid;
+  border-color: #a3a3a3;
   text-align: center;
 }
 .details-container:hover{
@@ -337,7 +338,7 @@ section {
 }
 
 .experiencia-sub-title {
-  color: rgb(85, 85, 85);
+  color: #555555;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -376,8 +377,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: #a3a3a3;
+  background: #ffffff;
 }
 
 .proyecto-img {
@@ -388,12 +389,12 @@ article .icon {
 
 .proyecto-title {
   margin: 1rem;
-  color: black;
+  color: #000000;
 }
 
 .proyecto-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  color: #000000;
+  border-color: #a3a3a3;
 }
 
 /* CONTACTO */
@@ -409,9 +410,9 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  border: #353535 0.1rem solid;
+  border-color: #a3a3a3;
+  background: #fafafa;
   margin: 2rem auto;
   padding: 0.5rem;
 }
